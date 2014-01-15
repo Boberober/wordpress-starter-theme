@@ -1,0 +1,40 @@
+/*
+	Theme Name: Awesome Theme Name
+*/
+
+$backgroundColor: #fff;
+$primaryColor: #86fb6e;
+$black: #222;
+$grey: #e6e6e6;
+$fontFamily: 'Open Sans', 'Helvetica Neue', 'Helvetica', Sans-serif;
+
+$footerHeight: 150px;
+
+body{
+	background: $backgroundColor;
+	font-family: $fontFamily;
+}
+
+body, html {
+  height: 100%;
+}
+
+html, body, .wrapper {
+  min-height: 100%;
+}
+
+.wrapper {
+  margin-bottom: -$footerHeight
+}
+
+.push {
+  height: $footerHeight;
+}
+
+a{
+	color: $primaryColor;
+}
+
+
+@import 'helpers';
+@import 'mediaqueries'
